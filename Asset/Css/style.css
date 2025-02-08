@@ -60,7 +60,7 @@ nav ul li a {
 .fade-in {
     opacity: 0;
     transform: translateY(20px);
-    animation: fadeInEffect 1s ease-out forwards;
+    animation: fadeInEffect 2s ease-out forwards;
 }
 
 @keyframes fadeInEffect {
@@ -82,6 +82,26 @@ nav ul li a {
     text-align: center;
     min-height: 95vh;
     flex-direction: column;
+}
+
+.hero-inner {
+    width: 100%;
+    max-width: calc(1280px + 2rem);
+    padding: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+#profile img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid var(--secondary-color);
 }
 
 p {
