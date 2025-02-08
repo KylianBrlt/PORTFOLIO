@@ -14,7 +14,6 @@
 }
 
 body {
-
     background: var(--primary-color);
     color: var(--secondary-color);
 }
@@ -75,7 +74,7 @@ nav ul li a {
     }
 }
 
-.profil-section {
+.contact-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,64 +83,43 @@ nav ul li a {
     flex-direction: column;
 }
 
-.profil-picture {
-    width: 100%;
-    max-width: calc(1280px + 2rem);
-    padding: 1rem;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    height: 100%;
-    color: rgb(255, 255, 255);
-    gap: 2rem;
-    justify-content: space-between;
-}
-
-#profile img {
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
-    height: auto;
-    border-radius: 50%;
-    border: 5px solid var(--secondary-color);
 }
 
-h1 {
-    font-size: 2.5rem;
-    margin: 20px 0;
+h2 {
+    margin-bottom: 20px;
+    color: #333;
 }
 
-p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin: 20px 0;
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
 }
 
-.button-container {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin: 20px 0px 20px 0px;
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
-.custom-button {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0.5rem 1rem;
-    width: 225px;
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #9E829C;
     border: none;
-    border-radius: 20px;
-    background: var(--secondary-color);
-    color: var(--primary-color);
-    font-weight: 500;
-
-}
-
-.custom-button i {
-    font-size: x-large;
-}
-
-.custom-button a {
-    color: var(--primary-color);
-    font-size: x-large;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .media{
