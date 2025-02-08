@@ -15,7 +15,7 @@
 body {
 
     background: var(--primary-color);
-    color: var(--secondary-color)
+    color: var(--secondary-color);
 }
 
 #logo img {
@@ -26,7 +26,6 @@ body {
 header {
     position: fixed;
     width: 100%;    
-    background: var(--primary-color);
 }
 
 nav {
@@ -84,7 +83,7 @@ nav ul li a {
     flex-direction: column;
 }
 
-.hero-inner {
+.profil-picture {
     width: 100%;
     max-width: calc(1280px + 2rem);
     padding: 1rem;
@@ -104,15 +103,43 @@ nav ul li a {
     border: 5px solid var(--secondary-color);
 }
 
+h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
 p {
     font-size: 1.2rem;
     line-height: 1.5;
     margin: 20px 0;
 }
 
-h1 {
-    font-size: 2.5rem;
-    margin: 20px 0;
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Ajoute de l'espace entre les boutons */
+    margin-top: 50px;
+}
+
+.custom-button {
+    padding: 0.5rem 1rem;
+    width: 225px;
+    border: none;
+    border-radius: 20px;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: 500;
+
+}
+
+.custom-button i {
+    margin-right: 20px;
+    font-size: x-large;
+}
+
+.custom-button a {
+    color: var(--primary-color);
+    font-size: x-large;
 }
 
 footer {
