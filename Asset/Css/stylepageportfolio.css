@@ -27,7 +27,8 @@ body {
 
 header {
     position: fixed;
-    width: 100%;    
+    width: 100%;
+    z-index: 1000;    
 }
 
 nav {
@@ -131,4 +132,39 @@ p {
 footer {
     display: flex;
     justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+
+    nav {
+        flex-direction: column;
+        background: #0a001be3;
+        padding: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .profil-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 95vh;
+        flex-direction: column;
+        padding-top: 275px; /* Ajout d'un espacement en haut */
+    }
+    
+    .project-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 40vh;
+        flex-direction: column;
+    }
+
 }
