@@ -160,7 +160,7 @@ footer {
         text-align: center;
         min-height: 95vh;
         flex-direction: column;
-        padding-top: 250px; /* Ajout d'un espacement en haut */
+        padding-top: 300px; /* Ajout d'un espacement en haut */
     }
     
     nav {
