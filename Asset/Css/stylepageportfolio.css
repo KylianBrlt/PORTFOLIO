@@ -10,12 +10,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Poppins, sans-serif;
+    font-family: var(--secondary-font), sans-serif;
     text-decoration: none;
 }
 
 body {
-
     background: var(--primary-color);
     color: var(--secondary-color);
 }
@@ -28,7 +27,7 @@ body {
 header {
     position: fixed;
     width: 100%;
-    z-index: 1000;    
+    z-index: 1000;
 }
 
 nav {
@@ -46,7 +45,7 @@ nav ul {
     align-items: center;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
 }
 
@@ -72,7 +71,6 @@ nav ul li a {
         opacity: 0;
         transform: translateY(50px);
     }
-
     to {
         opacity: 1;
         transform: translateY(0);
@@ -88,13 +86,14 @@ nav ul li a {
     flex-direction: column;
 }
 
-.project-section{
+.project-section {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     min-height: 40vh;
     flex-direction: row;
+    gap: 2rem;
 }
 
 .project {
@@ -116,38 +115,36 @@ h1 {
 
 h2 {
     font-family: var(--secondary-font);
-    font-size: 1,5rem;
+    font-size: 1.5rem;
     margin: 20px 0;
     font-weight: 500;
 }
 
-p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    font-family: var(--secondary-font);
-    font-weight: 500;
-}
-
-.media{
+.media {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin: 20px 0;
 }
 
-.media i{
+.media i {
     font-size: 2rem;
     color: var(--secondary-color);
 }
-
 
 footer {
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: 1rem;
+    background: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
+    .profil-section {
+        padding-top: 275px;
+    }
 
     nav {
         flex-direction: column;
@@ -160,23 +157,7 @@ footer {
         gap: 1rem;
     }
 
-    .profil-section {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        min-height: 95vh;
-        flex-direction: column;
-        padding-top: 275px; /* Ajout d'un espacement en haut */
-    }
-    
-    .project-section{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        min-height: 40vh;
+    .project-section {
         flex-direction: column;
     }
-
 }
