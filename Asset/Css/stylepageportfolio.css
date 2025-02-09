@@ -3,6 +3,7 @@
     --secondary-color: #F0EFF4;
     --third-color: #9E829C;
     --primary-font: "Dela Gothic One", serif;
+    --secondary-font: "Montserrat", sans-serif;
 }
 
 * {
@@ -49,7 +50,9 @@ nav ul li{
 }
 
 nav ul li a {
-    color: #e5e5e5;
+    font-family: var(--primary-font);
+    font-size: large;
+    color: var(--secondary-color);
     font-weight: 500;
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -105,14 +108,23 @@ nav ul li a {
 }
 
 h1 {
+    font-family: var(--primary-font);
     font-size: 2.5rem;
     margin: 20px 0;
+}
+
+h2 {
+    font-family: var(--secondary-font);
+    font-size: 1,5rem;
+    margin: 20px 0;
+    font-weight: 500;
 }
 
 p {
     font-size: 1.2rem;
     line-height: 1.5;
-    margin: 20px 0;
+    font-family: var(--secondary-font);
+    font-weight: 500;
 }
 
 
