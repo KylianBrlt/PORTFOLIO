@@ -84,6 +84,7 @@ nav ul li a {
     text-align: center;
     min-height: 95vh;
     flex-direction: column;
+    padding-top: 175px;
 }
 
 .contact-form {
@@ -135,6 +136,13 @@ button {
 .media i {
     font-size: 2rem;
     color: var(--secondary-color);
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family: var(--secondary-font);
+    font-weight: 500;
 }
 
 footer {
