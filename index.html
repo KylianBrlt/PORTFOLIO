@@ -30,6 +30,8 @@
                 <li><a href="Asset/Pdf/CV_2025-02-08_Kylian_BRAULT.pdf">Resume</a></li>
                 <li><a href="pagecontact.html">Contact</a></li>
             </ul>
+            <img src="Asset/Img/menu-btn.png" alt="Menu" class="Menu">
+
         </nav>
     </header>
 
@@ -67,5 +69,17 @@
         <p>© 2025 Kylian BRAULT Tous droits réservés.</p>
     </footer>
 </body>
+
+<script>
+    const menuHamburger = document.querySelector(".Menu")
+    const navLinks = document.querySelector("nav ul")
+    const navLinks2 = document.querySelector("nav")
+
+
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+        navLinks2.classList.toggle('mobile-menu')
+    })
+</script>
 
 </html>

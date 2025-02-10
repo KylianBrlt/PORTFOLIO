@@ -60,6 +60,11 @@ nav ul li a {
     position: relative;
 }
 
+.Menu {
+    display: none;
+    width: 30px;
+}
+
 .fade-in {
     opacity: 0;
     transform: translateY(50px);
@@ -84,7 +89,7 @@ nav ul li a {
     text-align: center;
     min-height: 95vh;
     flex-direction: column;
-    padding-top: 175px;
+    padding-top: 150px;
 }
 
 .project-section {
@@ -150,19 +155,44 @@ footer {
 }
 
 @media (max-width: 900px) {
-    .profil-section {
-        padding-top: 275px;
+
+    .Menu {
+        display: block;
+        cursor: pointer;
+    }
+    
+    nav {
+        flex-direction: row;
+        backdrop-filter: blur(10px);
+        padding: 1,5rem;
     }
 
-    nav {
-        flex-direction: column;
-        background: #0a001be3;
-        padding: 1rem;
+    nav.mobile-menu{
+        display: flex;
+        backdrop-filter: blur(10px);
+        background-color: #0a001b81;
+
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 7rem;
+        min-height: 100vh;
     }
 
     nav ul {
+        display: none;
         flex-direction: column;
         gap: 1rem;
+    }
+
+    nav ul.mobile-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .profil-section {
+        padding-top: 275px;
     }
 
     .project-section {
