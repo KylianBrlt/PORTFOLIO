@@ -29,6 +29,8 @@ header {
     position: fixed;
     width: 100%;
     z-index: 1000;
+    background: #0a001b81;
+    backdrop-filter: blur(10px);
 }
 
 nav {
