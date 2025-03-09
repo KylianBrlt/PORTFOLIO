@@ -1,0 +1,49 @@
+@import url('common.css');
+
+.full-project-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 95vh;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.project-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 40vh;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.project {
+    width: 300px;
+}
+
+.project img {
+    width: 75%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+@media (max-width: 900px) {
+    .profil-section {
+        padding-top: 275px;
+    }
+
+    .project-section {
+        flex-direction: column;
+    }
+}
