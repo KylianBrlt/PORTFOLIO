@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 95vh;
+    min-height: 92vh;
     flex-direction: column;
 }
 
@@ -35,7 +35,6 @@
     transform: scale(1.05);
     border-color: #1a2530;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
 }
 
 .button-container {

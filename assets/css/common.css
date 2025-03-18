@@ -83,7 +83,7 @@ nav ul li a {
 .fade-in {
     opacity: 0;
     transform: translateY(50px);
-    animation: fadeInEffect 2s ease-out forwards;
+    animation: fadeInEffect 0.5s ease-out forwards;
 }
 
 @keyframes fadeInEffect {
@@ -154,7 +154,7 @@ footer {
         right: 0;
         bottom: 0;
         backdrop-filter: blur(10px);
-        background-color: #0a001b81;
+        background-color: #0a001bf1;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
