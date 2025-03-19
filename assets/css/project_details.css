@@ -157,6 +157,7 @@
 @media (max-width: 768px) {
     .project-details {
         padding: 1rem;
+        padding-top: 150px;
     }
     
     .project-header h1 {
