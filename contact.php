@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-// Generate CSRF token
 if (empty($_SESSION['csrf_token'])) {
     $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
 }
@@ -11,23 +10,19 @@ $errorCode = '';
 
 // Process form submission
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Verify CSRF token
     if (!hash_equals($_SESSION['csrf_token'], $_POST['csrf_token'])) {
         $error = "Security verification failed. Please try again.";
         $errorCode = "securityError";
     } else {
-        // Collect and sanitize form data
         $name = htmlspecialchars(trim($_POST['name']));
         $email = htmlspecialchars(trim($_POST['email']));
         $subject = htmlspecialchars(trim($_POST['subject']));
         $message = htmlspecialchars(trim($_POST['message']));
 
-        // Validate email
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $error = "Invalid email format";
         } else {
-            // Prepare email content
-            $to = "kylian.brault@gmail.com"; // Replace with your email
+            $to = "kylian.brault@gmail.com";
             $email_subject = "Portfolio Contact: $subject";
             $body = "Name: $name\nEmail: $email\nSubject: $subject\n\nMessage:\n$message";
             $headers = "From: $email";
@@ -35,7 +30,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Send email
             if (mail($to, $email_subject, $body, $headers)) {
                 $success = "successMessage";
-                // Clear form data on success
                 $name = $email = $subject = $message = '';
             } else {
                 $error = "errorMessage";
@@ -59,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="assets/css/common.css">
     <link rel="stylesheet" href="assets/css/contact.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="icon" href="assets/image/iconLogo.png" type="image/png">
+    <link rel="icon" href="assets/image/iconLogo.webp" type="image/webp">
 </head>
 
 <body>
@@ -67,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <nav>
             <div id="logo">
                 <a href="index.html">
-                    <img src="assets/image/Kylian_Logo.png" alt="Logo Kylian">
+                    <img src="assets/image/Kylian_Logo.webp" alt="Logo Kylian">
                 </a>
             </div>
             <ul>
