@@ -27,11 +27,15 @@
                 </a>
             </div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="assets/pdf/CV_2025-02-08_Kylian_BRAULT.pdf">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="assets/pdf/CV_2025-02-08_Kylian_BRAULT.pdf" data-i18n="nav.resume">Resume</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
             </ul>
+            <div class="lang-switch-container">
+                <button class="lang-switch" data-lang="en">EN</button>
+                <button class="lang-switch" data-lang="fr">FR</button>
+            </div>
             <div class="Menu">
                 <i class="fas fa-bars"></i>
             </div>
@@ -41,13 +45,13 @@
     <main>
         <section class="project-details">
             <div class="project-header">
-                <h1>Serious Game</h1>
+                <h1 data-i18n="seriousGame.title">Serious Game</h1>
                 <img src="assets/image/Serious_Game.png" alt="Serious Game Project" class="project-main-image">
             </div>
 
             <div class="project-section">
-                <h2>About this project</h2>
-                <p>The serious game is a student project aimed at developing a 2D serious game on
+                <h2 data-i18n="seriousGame.aboutTitle">About this project</h2>
+                <p data-i18n="seriousGame.aboutText1">The serious game is a student project aimed at developing a 2D serious game on
                     cybersecurity. The game, developed on Unity
                     with C#, aims to educate players about cybersecurity threats and teach them how to
                     detect and counter them. It consists of two main phases: detecting suspicious addresses
@@ -56,31 +60,31 @@
 
                 <br>
                 
-                <p>This serious game project was developed as an educational tool that combines gaming elements with
+                <p data-i18n="seriousGame.aboutText2">This serious game project was developed as an educational tool that combines gaming elements with
                     educational content. The game was designed to teach specific skills or knowledge in an engaging
                     and interactive way, making learning more enjoyable and effective.
                 </p>
             </div>
 
             <div class="project-section">
-                <h2>Technologies</h2>
+                <h2 data-i18n="seriousGame.technologiesTitle">Technologies</h2>
                 <ul class="technology-list">
-                    <li>Unity Game Engine</li>
-                    <li>C# Programming</li>
-                    <li>UI/UX Design</li>
+                    <li data-i18n="seriousGame.tech1">Unity Game Engine</li>
+                    <li data-i18n="seriousGame.tech2">C# Programming</li>
+                    <li data-i18n="seriousGame.tech3">UI/UX Design</li>
                 </ul>
             </div>
 
             <div class="project-section">
-                <h2>Key Features</h2>
+                <h2 data-i18n="seriousGame.featuresTitle">Key Features</h2>
                 <ul class="feature-list">
-                    <li><strong>Interactive Learning:</strong> Engaging gameplay mechanics that reinforce educational content.</li>
-                    <li><strong>Adaptive Difficulty:</strong> Adjusts challenge level based on player performance.</li>
+                    <li><strong data-i18n="seriousGame.feature1Title">Interactive Learning:</strong> <span data-i18n="seriousGame.feature1Text">Engaging gameplay mechanics that reinforce educational content.</span></li>
+                    <li><strong data-i18n="seriousGame.feature2Title">Adaptive Difficulty:</strong> <span data-i18n="seriousGame.feature2Text">Adjusts challenge level based on player performance.</span></li>
                 </ul>
             </div>
 
             <div class="project-section">
-                <h2>Technical Notions</h2>
+                <h2 data-i18n="seriousGame.techNotionsTitle">Technical Notions</h2>
                 <div class="notions-container">
                     <div class="notion-bubble">
                         <h3>Unity3D</h3>
@@ -89,7 +93,7 @@
                         <h3>C#</h3>
                     </div>
                     <div class="notion-bubble">
-                        <h3>Game Design</h3>
+                        <h3 data-i18n="seriousGame.gameDesign">Game Design</h3>
                     </div>
                     <div class="notion-bubble">
                         <h3>UI/UX</h3>
@@ -99,16 +103,19 @@
             
             <div class="back-to-projects">
                 <a href="projects.html" class="back-button">
-                    <i class="fas fa-arrow-left"></i> Back to Projects
+                    <i class="fas fa-arrow-left"></i> <span data-i18n="projects.backButton">Back to Projects</span>
                 </a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>© 2025 Kylian BRAULT - All rights reserved.</p>
+        <p data-i18n="footer.copyright">© 2025 Kylian BRAULT - All rights reserved.</p>
     </footer>
 
+    <script src="assets/js/i18n/en.js"></script>
+    <script src="assets/js/i18n/fr.js"></script>
+    <script src="assets/js/i18n/translations.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

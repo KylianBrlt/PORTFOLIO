@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/common.css">
     <link rel="stylesheet" href="assets/css/projects.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" href="assets/image/iconLogo.png" type="image/png">
 </head>
 
 <body>
@@ -26,11 +27,15 @@
                 </a>
             </div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="assets/pdf/CV_2025-02-08_Kylian_BRAULT.pdf">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="assets/pdf/CV_2025-02-08_Kylian_BRAULT.pdf" data-i18n="nav.resume">Resume</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
             </ul>
+            <div class="lang-switch-container">
+                <button class="lang-switch" data-lang="en">EN</button>
+                <button class="lang-switch" data-lang="fr">FR</button>
+            </div>
             <div class="Menu">
                 <i class="fas fa-bars"></i>
             </div>
@@ -41,7 +46,7 @@
         <section class="full-project-section">
             <div class="fade-in">
                 <div>
-                    <h1>Last Projects</h1>
+                    <h1 data-i18n="projects.title">Last Projects</h1>
                 </div>
                 <div class="project-section">
                     <div class="project">
@@ -49,13 +54,13 @@
                             <img src="assets/image/Poulailler.png" alt="Project Poulailler">
                         </div>
                         <div class="project-content">
-                            <h2>Smart chicken coop</h2>
-                            <p>The smart chicken coop project is a student initiative to create a connected
+                            <h2 data-i18n="projects.chickenCoop.title">Smart chicken coop</h2>
+                            <p data-i18n="projects.chickenCoop.description">The smart chicken coop project is a student initiative to create a connected
                                 chicken coop system. It uses a thermal camera for egg detection and a 3D-printed
                                 mechanism for egg collection. A Raspberry Pi 4 controls the system and sends
                                 notifications via a mobile app. The goal is to introduce students to engineering, from
                                 design to implementation.</p>
-                            <a href="smart_chicken_coop.html"><button>Learn more</button></a>
+                            <a href="smart_chicken_coop.html"><button data-i18n="projects.learnMore">Learn more</button></a>
                         </div>
                     </div>
                     <div class="project">
@@ -63,11 +68,11 @@
                             <img src="assets/image/web.png" alt="Portfolio">
                         </div>
                         <div class="project-content">
-                            <h2>Portfolio</h2>
-                            <p>This portfolio website was designed and developed to showcase my projects and skills. The website
+                            <h2 data-i18n="projects.portfolio.title">Portfolio</h2>
+                            <p data-i18n="projects.portfolio.description">This portfolio website was designed and developed to showcase my projects and skills. The website
                                 features responsive design, clean layout, and modern web technologies to create an optimal viewing
                                 experience across various devices.</p>
-                            <a href="portfolio.html"><button>Learn more</button></a>
+                            <a href="portfolio.html"><button data-i18n="projects.learnMore">Learn more</button></a>
                         </div>
                     </div>
                     <div class="project">
@@ -75,13 +80,13 @@
                             <img src="assets/image/Serious_Game.png" alt="Serious Game">
                         </div>
                         <div class="project-content">
-                            <h2>Serious Game</h2>
-                            <p>The serious game is a student project aimed at developing a 2D serious game on
+                            <h2 data-i18n="projects.seriousGame.title">Serious Game</h2>
+                            <p data-i18n="projects.seriousGame.description">The serious game is a student project aimed at developing a 2D serious game on
                                 cybersecurity. The game, developed on Unity
                                 with C#, aims to educate players about cybersecurity threats and teach them how to
                                 detect and counter them. It consists of two main phases: detecting suspicious addresses
                                 and stopping the spread of a computer infection.</p>
-                            <a href="serious_game.html"><button>Learn more</button></a>
+                            <a href="serious_game.html"><button data-i18n="projects.learnMore">Learn more</button></a>
                         </div>
                     </div>
                 </div>
@@ -94,9 +99,12 @@
     </main>
 
     <footer>
-        <p>© 2025 Kylian BRAULT - All rights reserved.</p>
+        <p data-i18n="footer.copyright">© 2025 Kylian BRAULT - All rights reserved.</p>
     </footer>
 
+    <script src="assets/js/i18n/en.js"></script>
+    <script src="assets/js/i18n/fr.js"></script>
+    <script src="assets/js/i18n/translations.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 

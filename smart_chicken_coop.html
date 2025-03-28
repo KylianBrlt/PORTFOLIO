@@ -4,19 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio Kylian">
-    <meta name="keyword" content="Portfolio, Kylian">
+    <meta name="description" content="Portfolio Kylian - Smart Chicken Coop">
+    <meta name="keyword" content="Portfolio, Kylian, Smart Chicken Coop">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <title>Portfolio</title>
+    <title>Portfolio - Smart Chicken Coop</title>
     <link rel="stylesheet" href="assets/css/common.css">
     <link rel="stylesheet" href="assets/css/project_details.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="icon" href="assets/image/iconLogo.png" type="image/png">
-
 </head>
 
 <body>
@@ -28,28 +27,31 @@
                 </a>
             </div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="assets/pdf/CV_2025-02-08_Kylian_BRAULT.pdf">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="assets/pdf/CV_2025-02-08_Kylian_BRAULT.pdf" data-i18n="nav.resume">Resume</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
             </ul>
+            <div class="lang-switch-container">
+                <button class="lang-switch" data-lang="en">EN</button>
+                <button class="lang-switch" data-lang="fr">FR</button>
+            </div>
             <div class="Menu">
                 <i class="fas fa-bars"></i>
             </div>
-
         </nav>
     </header>
 
     <main>
         <section class="project-details">
             <div class="project-header">
-                <h1>Smart Chicken Coop</h1>
+                <h1 data-i18n="chickenCoop.title">Smart Chicken Coop</h1>
                 <img src="assets/image/Poulailler.png" alt="Smart Chicken Coop Project" class="project-main-image">
             </div>
 
             <div class="project-section">
-                <h2>About this project</h2>
-                <p>The smart chicken coop project is a student initiative to create a connected chicken coop system. It
+                <h2 data-i18n="chickenCoop.aboutTitle">About this project</h2>
+                <p data-i18n="chickenCoop.aboutText1">The smart chicken coop project is a student initiative to create a connected chicken coop system. It
                     uses a thermal camera for egg detection and a 3D-printed mechanism for egg collection. A Raspberry
                     Pi 4 controls the system and sends notifications via a mobile app. The goal is to introduce students
                     to engineering, from design to implementation.
@@ -57,7 +59,7 @@
                 
                 <br>
                 
-                <p>
+                <p data-i18n="chickenCoop.aboutText2">
                     This section details my contribution to the "Smart Chicken" year project, focusing on the automated
                     egg collection system.
                     As part of a larger initiative to create a smart chicken coop, my role involved designing and
@@ -69,26 +71,24 @@
             </div>
 
             <div class="project-section">
-                <h2>Technologies</h2>
+                <h2 data-i18n="chickenCoop.technologiesTitle">Technologies</h2>
                 <ul class="technology-list">
-                    <li>Raspberry Pi (for overall system control and integration)</li>
-                    <li>Mechanical components (motors for movement)</li>
-                    <li>Electronics for motor control and sensing</li>
+                    <li data-i18n="chickenCoop.tech1">Raspberry Pi (for overall system control and integration)</li>
+                    <li data-i18n="chickenCoop.tech2">Mechanical components (motors for movement)</li>
+                    <li data-i18n="chickenCoop.tech3">Electronics for motor control and sensing</li>
                 </ul>
             </div>
 
             <div class="project-section">
-                <h2>Key Features</h2>
+                <h2 data-i18n="chickenCoop.featuresTitle">Key Features</h2>
                 <ul class="feature-list">
-                    <li><strong>Automated Egg Retrieval:</strong> Mechanism to physically collect eggs from the nesting
-                        area after detection.</li>
-                    <li><strong>Automated Transfer to Storage:</strong> Directed collected eggs towards a designated
-                        storage area within the coop.</li>
+                    <li><strong data-i18n="chickenCoop.feature1Title">Automated Egg Retrieval:</strong> <span data-i18n="chickenCoop.feature1Text">Mechanism to physically collect eggs from the nesting area after detection.</span></li>
+                    <li><strong data-i18n="chickenCoop.feature2Title">Automated Transfer to Storage:</strong> <span data-i18n="chickenCoop.feature2Text">Directed collected eggs towards a designated storage area within the coop.</span></li>
                 </ul>
             </div>
 
             <div class="project-section">
-                <h2>Technical Notions</h2>
+                <h2 data-i18n="chickenCoop.techNotionsTitle">Technical Notions</h2>
                 <div class="notions-container">
                     <div class="notion-bubble">
                         <h3>Crontab</h3>
@@ -100,27 +100,29 @@
                         <h3>Raspberry Pi GPIO</h3>
                     </div>
                     <div class="notion-bubble">
-                        <h3>Python Automation</h3>
+                        <h3 data-i18n="chickenCoop.bubble1">Python Automation</h3>
                     </div>
                     <div class="notion-bubble">
-                        <h3>3D Printing</h3>
+                        <h3 data-i18n="chickenCoop.bubble2">3D Printing</h3>
                     </div>
                 </div>
             </div>
 
             <div class="back-to-projects">
                 <a href="projects.html" class="back-button">
-                    <i class="fas fa-arrow-left"></i> Back to Projects
+                    <i class="fas fa-arrow-left"></i> <span data-i18n="projects.backButton">Back to Projects</span>
                 </a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>© 2025 Kylian BRAULT - All rights reserved.</p>
+        <p data-i18n="footer.copyright">© 2025 Kylian BRAULT - All rights reserved.</p>
     </footer>
+
+    <script src="assets/js/i18n/en.js"></script>
+    <script src="assets/js/i18n/fr.js"></script>
+    <script src="assets/js/i18n/translations.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
-
-<script src="assets/js/script.js"></script>
-
 </html>

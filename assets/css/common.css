@@ -68,15 +68,47 @@ nav ul li a {
     cursor: pointer;
     font-size: 1.8rem;
     color: var(--secondary-color);
-    width: auto;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    z-index: 2000;
+    position: relative;
 }
 
 .Menu i {
     transition: transform 0.3s ease;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
 }
 
 .Menu.open i {
     transform: rotate(90deg);
+}
+
+/* Language switcher styles */
+.lang-switch-container {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.lang-switch {
+    background: none;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+}
+
+.lang-switch:hover,
+.lang-switch.active {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 /* Common animations */
@@ -91,6 +123,7 @@ nav ul li a {
         opacity: 0;
         transform: translateY(50px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -136,11 +169,15 @@ footer {
 
 @media (max-width: 900px) {
     .Menu {
-        display: block;
-        cursor: pointer;
-        z-index: 1001;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(158, 130, 156, 0.2);
+        border-radius: 5px;
+        padding: 5px;
+        margin-right: 10px;
     }
-    
+
     nav {
         flex-direction: row;
         backdrop-filter: blur(10px);
@@ -158,7 +195,7 @@ footer {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        gap: 7rem;
+        gap: 2rem;
         min-height: 100vh;
         animation: slideIn 0.4s ease-out forwards;
     }
@@ -168,6 +205,7 @@ footer {
             transform: translateX(-100%);
             opacity: 0;
         }
+
         to {
             transform: translateX(0);
             opacity: 1;
@@ -194,12 +232,13 @@ footer {
             opacity: 0;
             transform: translateX(-20px);
         }
+
         to {
             opacity: 1;
             transform: translateX(0);
         }
     }
-    
+
     h1 {
         font-size: 1.8rem;
     }
@@ -207,5 +246,28 @@ footer {
     p {
         font-size: 1rem;
         line-height: 1.3;
+    }
+
+    .lang-switch-container {
+        display: none;
+    }
+
+    nav.mobile-menu .lang-switch-container {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .Menu {
+        width: 36px;
+        height: 36px;
+        font-size: 1.6rem;
+        padding: 6px;
+    }
+
+    nav.mobile-menu {
+        padding-top: 4rem;
     }
 }

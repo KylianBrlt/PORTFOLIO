@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="assets/css/home.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="icon" href="assets/image/iconLogo.png" type="image/png">
-
 </head>
 
 <body>
@@ -28,15 +27,18 @@
                 </a>
             </div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="assets/pdf/CV_2025-02-08_Kylian_BRAULT.pdf">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="assets/pdf/CV_2025-02-08_Kylian_BRAULT.pdf" data-i18n="nav.resume">Resume</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
             </ul>
+            <div class="lang-switch-container">
+                <button class="lang-switch" data-lang="en">EN</button>
+                <button class="lang-switch" data-lang="fr">FR</button>
+            </div>
             <div class="Menu">
                 <i class="fas fa-bars"></i>
             </div>
-
         </nav>
     </header>
 
@@ -45,16 +47,16 @@
             <div class="profil-picture">
                 <div class="fade-in">
                     <div>
-                        <h1>Welcome to my website !</h1>
-                        <p>I'm Kylian Brault, a computer science student. My website is a showcase for my skills and
+                        <h1 data-i18n="home.welcome">Welcome to my website !</h1>
+                        <p data-i18n="home.intro">I'm Kylian Brault, a computer science student. My website is a showcase for my skills and
                             projects, where I share my creations and experiences. Explore my work to discover how I
                             transform ideas into digital reality.</p>
                         <div class="button-container">
                             <a href="assets/pdf/CV_2025-02-08_Kylian_BRAULT.pdf" class="custom-button">
-                                <i class="fa-solid fa-download"></i> Resume
+                                <i class="fa-solid fa-download"></i> <span data-i18n="home.resumeBtn">Resume</span>
                             </a>
                             <a href="contact.html" class="custom-button">
-                                <i class="fa-solid fa-pen-to-square"></i> Contact me
+                                <i class="fa-solid fa-pen-to-square"></i> <span data-i18n="home.contactBtn">Contact me</span>
                             </a>
                         </div>
                         <div class="media">
@@ -71,10 +73,13 @@
     </main>
 
     <footer>
-        <p>© 2025 Kylian BRAULT - All rights reserved.</p>
+        <p data-i18n="footer.copyright">© 2025 Kylian BRAULT - All rights reserved.</p>
     </footer>
-</body>
 
-<script src="assets/js/script.js"></script>
+    <script src="assets/js/i18n/en.js"></script>
+    <script src="assets/js/i18n/fr.js"></script>
+    <script src="assets/js/i18n/translations.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
 
 </html>

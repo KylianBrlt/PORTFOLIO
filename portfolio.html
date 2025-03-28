@@ -27,11 +27,15 @@
                 </a>
             </div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="assets/pdf/CV_2025-02-08_Kylian_BRAULT.pdf">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="assets/pdf/CV_2025-02-08_Kylian_BRAULT.pdf" data-i18n="nav.resume">Resume</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
             </ul>
+            <div class="lang-switch-container">
+                <button class="lang-switch" data-lang="en">EN</button>
+                <button class="lang-switch" data-lang="fr">FR</button>
+            </div>
             <div class="Menu">
                 <i class="fas fa-bars"></i>
             </div>
@@ -41,20 +45,20 @@
     <main>
         <section class="project-details">
             <div class="project-header">
-                <h1>Portfolio Website</h1>
+                <h1 data-i18n="portfolioProject.title">Portfolio Website</h1>
                 <img src="assets/image/web.png" alt="Portfolio Website Project" class="project-main-image">
             </div>
 
             <div class="project-section">
-                <h2>About this project</h2>
-                <p>This portfolio website was designed and developed to showcase my projects and skills. The website
+                <h2 data-i18n="portfolioProject.aboutTitle">About this project</h2>
+                <p data-i18n="portfolioProject.aboutText1">This portfolio website was designed and developed to showcase my projects and skills. The website
                     features responsive design, clean layout, and modern web technologies to create an optimal viewing
                     experience across various devices.
                 </p>
 
                 <br>
 
-                <p>My personal portfolio website serves as a central hub for my professional information. Developed with
+                <p data-i18n="portfolioProject.aboutText2">My personal portfolio website serves as a central hub for my professional information. Developed with
                     HTML, CSS, and JavaScript, it provides a responsive design to ensure optimal viewing on any device.
                     Key features include a project showcase with detailed descriptions and links, an "Resume" section
                     outlining my background and skills, and a contact form for visitors to easily reach out. The site is
@@ -63,27 +67,25 @@
             </div>
 
             <div class="project-section">
-                <h2>Technologies</h2>
+                <h2 data-i18n="portfolioProject.technologiesTitle">Technologies</h2>
                 <ul class="technology-list">
-                    <li>HTML5 / CSS3</li>
-                    <li>JavaScript</li>
-                    <li>Responsive Web Design</li>
+                    <li data-i18n="portfolioProject.tech1">HTML5 / CSS3</li>
+                    <li data-i18n="portfolioProject.tech2">JavaScript</li>
+                    <li data-i18n="portfolioProject.tech3">Responsive Web Design</li>
                 </ul>
             </div>
 
             <div class="project-section">
-                <h2>Key Features</h2>
+                <h2 data-i18n="portfolioProject.featuresTitle">Key Features</h2>
                 <ul class="feature-list">
-                    <li><strong>Responsive Design:</strong> Adapts to various screen sizes for optimal viewing
-                        experience.</li>
-                    <li><strong>Project Showcase:</strong> Dedicated pages for each project with detailed information.
-                    </li>
-                    <li><strong>Contact Form:</strong> Easy way for visitors to get in touch.</li>
+                    <li><strong data-i18n="portfolioProject.feature1Title">Responsive Design:</strong> <span data-i18n="portfolioProject.feature1Text">Adapts to various screen sizes for optimal viewing experience.</span></li>
+                    <li><strong data-i18n="portfolioProject.feature2Title">Project Showcase:</strong> <span data-i18n="portfolioProject.feature2Text">Dedicated pages for each project with detailed information.</span></li>
+                    <li><strong data-i18n="portfolioProject.feature3Title">Contact Form:</strong> <span data-i18n="portfolioProject.feature3Text">Easy way for visitors to get in touch.</span></li>
                 </ul>
             </div>
 
             <div class="project-section">
-                <h2>Technical Notions</h2>
+                <h2 data-i18n="portfolioProject.techNotionsTitle">Technical Notions</h2>
                 <div class="notions-container">
                     <div class="notion-bubble">
                         <h3>HTML5</h3>
@@ -95,32 +97,35 @@
                         <h3>JavaScript</h3>
                     </div>
                     <div class="notion-bubble">
-                        <h3>Responsive Design</h3>
+                        <h3 data-i18n="portfolioProject.responsiveDesign">Responsive Design</h3>
                     </div>
                 </div>
             </div>
             
             <div class="project-section">
-                <h2>Links</h2>
+                <h2 data-i18n="portfolioProject.linksTitle">Links</h2>
                 <div class="project-links">
                     <a href="https://github.com/KylianBrlt/PORTFOLIO" target="_blank" class="github-button">
-                        <i class="fab fa-github"></i> View on GitHub
+                        <i class="fab fa-github"></i> <span data-i18n="portfolioProject.viewGithub">View on GitHub</span>
                     </a>
                 </div>
             </div>
 
             <div class="back-to-projects">
                 <a href="projects.html" class="back-button">
-                    <i class="fas fa-arrow-left"></i> Back to Projects
+                    <i class="fas fa-arrow-left"></i> <span data-i18n="projects.backButton">Back to Projects</span>
                 </a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>© 2025 Kylian BRAULT - All rights reserved.</p>
+        <p data-i18n="footer.copyright">© 2025 Kylian BRAULT - All rights reserved.</p>
     </footer>
 
+    <script src="assets/js/i18n/en.js"></script>
+    <script src="assets/js/i18n/fr.js"></script>
+    <script src="assets/js/i18n/translations.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 
