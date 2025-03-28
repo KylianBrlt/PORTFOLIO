@@ -26,6 +26,10 @@ const frTranslations = {
       title: "Jeu Sérieux",
       description: "Le jeu sérieux est un projet étudiant visant à développer un jeu sérieux 2D sur la cybersécurité. Le jeu, développé sur Unity avec C#, vise à sensibiliser les joueurs aux menaces de cybersécurité et à leur apprendre à les détecter et à les contrer. Il se compose de deux phases principales : la détection d'adresses suspectes et l'arrêt de la propagation d'une infection informatique."
     },
+    reservation: {
+      title: "Système de Réservation",
+      description: "Un système de réservation complet construit avec PHP et MySQL. Ce projet comprend l'enregistrement et l'authentification des utilisateurs avec vérification par e-mail, la programmation de rendez-vous avec intégration de calendrier et des fonctionnalités de gestion de profil. Le système implémente les pratiques de sécurité, notamment la protection CSRF et le hachage des mots de passe."
+    },
     backButton: "Retour aux Projets"
   },
   chickenCoop: {
@@ -83,6 +87,31 @@ const frTranslations = {
     responsiveDesign: "Design Responsive",
     linksTitle: "Liens",
     viewGithub: "Voir sur GitHub"
+  },
+  reservationProject: {
+    title: "Système de Réservation",
+    aboutTitle: "À propos de ce projet",
+    aboutText1: "Un système de réservation complet construit avec PHP et MySQL. Ce projet comprend l'enregistrement et l'authentification des utilisateurs avec vérification par e-mail, la programmation de rendez-vous avec intégration de calendrier et des fonctionnalités de gestion de profil. Le système implémente les pratiques de sécurité, notamment la protection CSRF et le hachage des mots de passe.",
+    aboutText2: "Le système de réservation a été développé pour fournir une solution complète pour la gestion des rendez-vous et des comptes utilisateurs. Les utilisateurs peuvent s'inscrire avec vérification par e-mail, se connecter en toute sécurité, planifier des rendez-vous à l'aide d'un calendrier interactif, gérer leurs informations de profil et annuler des rendez-vous si nécessaire. Le système inclut des fonctionnalités d'administration et met l'accent sur les meilleures pratiques de sécurité dans toute l'application.",
+    technologiesTitle: "Technologies",
+    tech1: "PHP",
+    tech2: "Base de données MySQL",
+    tech3: "JavaScript avec FullCalendar",
+    tech4: "HTML5/CSS3",
+    featuresTitle: "Fonctionnalités clés",
+    feature1Title: "Authentification des utilisateurs :",
+    feature1Text: "Système d'enregistrement et de connexion sécurisé avec vérification par e-mail.",
+    feature2Title: "Gestion des rendez-vous :", 
+    feature2Text: "Calendrier interactif pour la planification et la gestion des rendez-vous.",
+    feature3Title: "Gestion de profil :",
+    feature3Text: "Les utilisateurs peuvent consulter et mettre à jour leurs informations personnelles.",
+    feature4Title: "Fonctionnalités de sécurité :",
+    feature4Text: "Protection CSRF, hachage des mots de passe et validation des entrées dans toute l'application.",
+    techNotionsTitle: "Notions techniques",
+    bubble1: "Authentification",
+    bubble2: "Protection CSRF",
+    linksTitle: "Liens",
+    viewDemo: "Voir la démo"
   },
   contact: {
     title: "Me contacter",

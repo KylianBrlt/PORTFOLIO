@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reservation System Project by Kylian BRAULT">
+    <meta name="keyword" content="Portfolio, Kylian, Reservation System, PHP, MySQL">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Reservation System Project | Kylian BRAULT</title>
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/project_details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" href="assets/image/iconLogo.webp" type="image/webp">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <a href="index.html">
+                    <img src="assets/image/Kylian_Logo.webp" alt="Logo Kylian">
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="assets/pdf/CV_2025-02-08_Kylian_BRAULT.pdf" data-i18n="nav.resume">Resume</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            <div class="lang-switch-container">
+                <button class="lang-switch" data-lang="en">EN</button>
+                <button class="lang-switch" data-lang="fr">FR</button>
+            </div>
+            <div class="Menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="project-details">
+            <div class="project-header">
+                <h1 data-i18n="reservationProject.title">Reservation System</h1>
+                <img src="assets/image/reservation.webp" alt="Reservation System Project" class="project-main-image">
+                <img src="assets/image/Planning.webp" alt="Reservation Planning" class="project-main-image">
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="reservationProject.aboutTitle">About this project</h2>
+                <p data-i18n="reservationProject.aboutText1">A comprehensive reservation system built with PHP and MySQL. This project features user registration and authentication with email verification, appointment scheduling with calendar integration, and profile management capabilities. The system implements security practices including CSRF protection and password hashing.
+                </p>
+
+                <br>
+
+                <p data-i18n="reservationProject.aboutText2">The reservation system was developed to provide a complete solution for managing appointments and user accounts. Users can register with email verification, log in securely, schedule appointments using an interactive calendar, manage their profile information, and cancel appointments when needed. The system includes admin capabilities and focuses on security best practices throughout the application.
+                </p>
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="reservationProject.technologiesTitle">Technologies</h2>
+                <ul class="technology-list">
+                    <li data-i18n="reservationProject.tech1">PHP</li>
+                    <li data-i18n="reservationProject.tech2">MySQL Database</li>
+                    <li data-i18n="reservationProject.tech3">JavaScript with FullCalendar</li>
+                    <li data-i18n="reservationProject.tech4">HTML5/CSS3</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="reservationProject.featuresTitle">Key Features</h2>
+                <ul class="feature-list">
+                    <li><strong data-i18n="reservationProject.feature1Title">User Authentication:</strong> <span data-i18n="reservationProject.feature1Text">Secure registration and login system with email verification.</span></li>
+                    <li><strong data-i18n="reservationProject.feature2Title">Appointment Management:</strong> <span data-i18n="reservationProject.feature2Text">Interactive calendar for scheduling and managing appointments.</span></li>
+                    <li><strong data-i18n="reservationProject.feature3Title">Profile Management:</strong> <span data-i18n="reservationProject.feature3Text">Users can view and update their personal information.</span></li>
+                    <li><strong data-i18n="reservationProject.feature4Title">Security Features:</strong> <span data-i18n="reservationProject.feature4Text">CSRF protection, password hashing, and input validation throughout the application.</span></li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="reservationProject.techNotionsTitle">Technical Notions</h2>
+                <div class="notions-container">
+                    <div class="notion-bubble">
+                        <h3>PHP</h3>
+                    </div>
+                    <div class="notion-bubble">
+                        <h3>MySQL</h3>
+                    </div>
+                    <div class="notion-bubble">
+                        <h3>FullCalendar</h3>
+                    </div>
+                    <div class="notion-bubble">
+                        <h3 data-i18n="reservationProject.bubble1">Authentication</h3>
+                    </div>
+                    <div class="notion-bubble">
+                        <h3 data-i18n="reservationProject.bubble2">CSRF Protection</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-section">
+                <h2 data-i18n="reservationProject.linksTitle">Links</h2>
+                <div class="project-links">
+                    <a href="https://kylianbrlt.com/reservation/" target="_blank" class="github-button">
+                        <i class="fas fa-external-link-alt"></i> <span data-i18n="reservationProject.viewDemo">View Demo</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="back-to-projects">
+                <a href="projects.html" class="back-button">
+                    <i class="fas fa-arrow-left"></i> <span data-i18n="projects.backButton">Back to Projects</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n="footer.copyright">© 2025 Kylian BRAULT - All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/i18n/en.js"></script>
+    <script src="assets/js/i18n/fr.js"></script>
+    <script src="assets/js/i18n/translations.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

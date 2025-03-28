@@ -26,6 +26,10 @@ const enTranslations = {
       title: "Serious Game",
       description: "The serious game is a student project aimed at developing a 2D serious game on cybersecurity. The game, developed on Unity with C#, aims to educate players about cybersecurity threats and teach them how to detect and counter them. It consists of two main phases: detecting suspicious addresses and stopping the spread of a computer infection."
     },
+    reservation: {
+      title: "Reservation System",
+      description: "A comprehensive reservation system built with PHP and MySQL. This project features user registration and authentication with email verification, appointment scheduling with calendar integration, and profile management capabilities. The system implements security practices including CSRF protection and password hashing."
+    },
     backButton: "Back to Projects"
   },
   chickenCoop: {
@@ -83,6 +87,31 @@ const enTranslations = {
     responsiveDesign: "Responsive Design",
     linksTitle: "Links",
     viewGithub: "View on GitHub"
+  },
+  reservationProject: {
+    title: "Reservation System",
+    aboutTitle: "About this project",
+    aboutText1: "A comprehensive reservation system built with PHP and MySQL. This project features user registration and authentication with email verification, appointment scheduling with calendar integration, and profile management capabilities. The system implements security practices including CSRF protection and password hashing.",
+    aboutText2: "The reservation system was developed to provide a complete solution for managing appointments and user accounts. Users can register with email verification, log in securely, schedule appointments using an interactive calendar, manage their profile information, and cancel appointments when needed. The system includes admin capabilities and focuses on security best practices throughout the application.",
+    technologiesTitle: "Technologies",
+    tech1: "PHP",
+    tech2: "MySQL Database",
+    tech3: "JavaScript with FullCalendar",
+    tech4: "HTML5/CSS3",
+    featuresTitle: "Key Features",
+    feature1Title: "User Authentication:",
+    feature1Text: "Secure registration and login system with email verification.",
+    feature2Title: "Appointment Management:", 
+    feature2Text: "Interactive calendar for scheduling and managing appointments.",
+    feature3Title: "Profile Management:",
+    feature3Text: "Users can view and update their personal information.",
+    feature4Title: "Security Features:",
+    feature4Text: "CSRF protection, password hashing, and input validation throughout the application.",
+    techNotionsTitle: "Technical Notions",
+    bubble1: "Authentication",
+    bubble2: "CSRF Protection",
+    linksTitle: "Links",
+    viewDemo: "View Demo"
   },
   contact: {
     title: "Contact me",
