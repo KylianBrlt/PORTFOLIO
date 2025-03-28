@@ -33,7 +33,7 @@ This portfolio website is designed to highlight my professional journey, featuri
 
 ## Contact
 
-- **Website Form**: [kylianbrlt](https://kylianbrlt.github.io/contact.html)
+- **Website Form**: [kylianbrlt](https://kylianbrlt.com/contact.php)
 - **LinkedIn**: [kylianbrault](https://www.linkedin.com/in/kylianbrault/)
 
 Feel free to reach out if you have any questions or just want to connect!
