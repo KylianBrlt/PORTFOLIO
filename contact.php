@@ -104,23 +104,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             
                             <div class="form-row">
                                 <div class="form-group">
-                                    <label for="name" data-i18n="contact.nameLabel">Name</label>
-                                    <input type="text" id="name" name="name" data-i18n-placeholder="contact.namePlaceholder" placeholder="Your name" value="<?php echo isset($name) ? $name : ''; ?>" required>
+                                    <label for="name" data-i18n="contact.name">Name</label>
+                                    <input type="text" id="name" name="name" data-i18n-attr="placeholder" data-i18n="contact.namePlaceholder" placeholder="Your name" value="<?php echo isset($name) ? $name : ''; ?>" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="email" data-i18n="contact.emailLabel">Email</label>
-                                    <input type="email" id="email" name="email" data-i18n-placeholder="contact.emailPlaceholder" placeholder="Your email address" value="<?php echo isset($email) ? $email : ''; ?>" required>
+                                    <label for="email" data-i18n="contact.email">Email</label>
+                                    <input type="email" id="email" name="email" data-i18n-attr="placeholder" data-i18n="contact.emailPlaceholder" placeholder="Your email address" value="<?php echo isset($email) ? $email : ''; ?>" required>
                                 </div>
                             </div>
                             
                             <div class="form-group">
-                                <label for="subject" data-i18n="contact.subjectLabel">Subject</label>
-                                <input type="text" id="subject" name="subject" data-i18n-placeholder="contact.subjectPlaceholder" placeholder="What is this regarding?" value="<?php echo isset($subject) ? $subject : ''; ?>" required>
+                                <label for="subject" data-i18n="contact.subject">Subject</label>
+                                <input type="text" id="subject" name="subject" data-i18n-attr="placeholder" data-i18n="contact.subjectPlaceholder" placeholder="What is this regarding?" value="<?php echo isset($subject) ? $subject : ''; ?>" required>
                             </div>
                             
                             <div class="form-group">
-                                <label for="message" data-i18n="contact.messageLabel">Message</label>
-                                <textarea id="message" name="message" data-i18n-placeholder="contact.messagePlaceholder" placeholder="Your message here..." rows="4" required><?php echo isset($message) ? $message : ''; ?></textarea>
+                                <label for="message" data-i18n="contact.message">Message</label>
+                                <textarea id="message" name="message" data-i18n-attr="placeholder" data-i18n="contact.messagePlaceholder" placeholder="Your message here..." rows="4" required><?php echo isset($message) ? $message : ''; ?></textarea>
                             </div>
                             
                             <button type="submit" data-i18n="contact.sendButton">Send Message <i class="fas fa-paper-plane"></i></button>

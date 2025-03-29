@@ -123,7 +123,10 @@ const frTranslations = {
     emailPlaceholder: "Votre adresse email",
     subjectPlaceholder: "De quoi s'agit-il ?",
     messagePlaceholder: "Votre message ici...",
-    sendButton: "Envoyer le message"
+    sendButton: "Envoyer le message",
+    successMessage: "Votre message a été envoyé avec succès !",
+    errorMessage: "Échec de l'envoi du message. Veuillez réessayer.",
+    securityError: "La vérification de sécurité a échoué. Veuillez réessayer."
   },
   footer: {
     copyright: "© 2025 Kylian BRAULT - Tous droits réservés."
