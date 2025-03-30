@@ -14,6 +14,10 @@ const frTranslations = {
   projects: {
     title: "Derniers Projets",
     learnMore: "En savoir plus",
+    flowApplication: {
+      title: "Réseau Social Flow",
+      description: "Une application moderne de réseau social construite avec Next.js et React. Ce projet intègre l'authentification des utilisateurs, des interactions sociales comme les publications et les commentaires, et s'intègre parfaitement avec des API externes. La conception responsive garantit une excellente expérience utilisateur sur tous les appareils."
+    },
     chickenCoop: {
       title: "Poulailler connecté",
       description: "Le projet de poulailler connecté est une initiative étudiante visant à créer un système de poulailler connecté. Il utilise une caméra thermique pour la détection des œufs et un mécanisme imprimé en 3D pour la collecte des œufs. Un Raspberry Pi 4 contrôle le système et envoie des notifications via une application mobile. L'objectif est d'initier les étudiants à l'ingénierie, de la conception à la mise en œuvre."
@@ -112,6 +116,31 @@ const frTranslations = {
     bubble2: "Protection CSRF",
     linksTitle: "Liens",
     viewDemo: "Voir la démo"
+  },
+  flowApplication: {
+    title: "Réseau Social Flow",
+    aboutTitle: "À propos de ce projet",
+    aboutText1: "Flow est une application moderne de réseau social construite avec Next.js et React. Elle offre aux utilisateurs une plateforme fluide pour se connecter, partager du contenu et interagir les uns avec les autres via des publications et des messages. L'application exploite des API externes pour des fonctionnalités améliorées et offre une expérience utilisateur réactive et intuitive sur tous les appareils.",
+    aboutText2: "Ce projet démontre ma maîtrise dans la construction d'applications web complètes utilisant des frameworks JavaScript modernes. L'architecture de l'application suit les meilleures pratiques en matière de conception de composants, de gestion d'état et d'intégration d'API. Avec des fonctionnalités comme les mises à jour en temps réel, l'authentification des utilisateurs et la conception responsive, Flow représente une vitrine complète de compétences en développement web moderne.",
+    technologiesTitle: "Technologies",
+    tech1: "Next.js",
+    tech2: "React",
+    tech3: "API RESTful",
+    tech4: "Modules CSS / Styled Components",
+    featuresTitle: "Fonctionnalités clés",
+    feature1Title: "Authentification des utilisateurs :",
+    feature1Text: "Système sécurisé de connexion et d'inscription avec gestion de profil.",
+    feature2Title: "Interactions sociales :",
+    feature2Text: "Création de publications, j'aime, commentaires et possibilités de partage.",
+    feature3Title: "Intégration d'API :",
+    feature3Text: "Connexion à des services externes pour des fonctionnalités améliorées.",
+    feature4Title: "Design Responsive :",
+    feature4Text: "Expérience fluide sur ordinateur, tablette et appareils mobiles.",
+    techNotionsTitle: "Notions techniques",
+    stateManagement: "Gestion d'état",
+    responsiveDesign: "Design Responsive",
+    linksTitle: "Liens",
+    viewLive: "Voir le projet en ligne"
   },
   contact: {
     title: "Me contacter",

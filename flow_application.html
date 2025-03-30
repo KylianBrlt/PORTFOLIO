@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Social Network Project by Kylian BRAULT">
+    <meta name="keyword" content="Portfolio, Kylian, Social Network, Next.js, React, API">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Flow Social Network | Kylian BRAULT</title>
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/project_details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" href="assets/image/iconLogo.webp" type="image/webp">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <a href="index.html">
+                    <img src="assets/image/Kylian_Logo.webp" alt="Logo Kylian">
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="assets/pdf/CV_2025-02-08_Kylian_BRAULT.pdf" data-i18n="nav.resume">Resume</a></li>
+                <li><a href="contact.php" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            <div class="lang-switch-container">
+                <button class="lang-switch" data-lang="en">EN</button>
+                <button class="lang-switch" data-lang="fr">FR</button>
+            </div>
+            <div class="Menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="project-details">
+            <div class="project-header">
+                <h1 data-i18n="flowApplication.title">Flow Social Network</h1>
+                <img src="assets/image/flow_application.webp" alt="Flow Social Network Project" class="project-main-image">
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="flowApplication.aboutTitle">About this project</h2>
+                <p data-i18n="flowApplication.aboutText1">Flow is a modern social network application built with Next.js and React. It offers users a seamless platform to connect, share content, and interact with each other through posts and messaging. The application leverages external APIs for enhanced functionality and provides a responsive, intuitive user experience across all devices.
+                </p>
+
+                <br>
+
+                <p data-i18n="flowApplication.aboutText2">This project demonstrates my proficiency in building full-featured web applications using modern JavaScript frameworks. The application architecture follows best practices in component design, state management, and API integration. With features like real-time updates, user authentication, and responsive design, Flow represents a comprehensive showcase of modern web development skills.
+                </p>
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="flowApplication.technologiesTitle">Technologies</h2>
+                <ul class="technology-list">
+                    <li data-i18n="flowApplication.tech1">Next.js</li>
+                    <li data-i18n="flowApplication.tech2">React</li>
+                    <li data-i18n="flowApplication.tech3">RESTful APIs</li>
+                    <li data-i18n="flowApplication.tech4">CSS Modules / Styled Components</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="flowApplication.featuresTitle">Key Features</h2>
+                <ul class="feature-list">
+                    <li><strong data-i18n="flowApplication.feature1Title">User Authentication:</strong> <span data-i18n="flowApplication.feature1Text">Secure login and registration system with profile management.</span></li>
+                    <li><strong data-i18n="flowApplication.feature2Title">Social Interactions:</strong> <span data-i18n="flowApplication.feature2Text">Post creation, likes, comments, and sharing capabilities.</span></li>
+                    <li><strong data-i18n="flowApplication.feature3Title">API Integration:</strong> <span data-i18n="flowApplication.feature3Text">Connection to external services for enhanced functionality.</span></li>
+                    <li><strong data-i18n="flowApplication.feature4Title">Responsive Design:</strong> <span data-i18n="flowApplication.feature4Text">Seamless experience across desktop, tablet, and mobile devices.</span></li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="flowApplication.techNotionsTitle">Technical Notions</h2>
+                <div class="notions-container">
+                    <div class="notion-bubble">
+                        <h3>Next.js</h3>
+                    </div>
+                    <div class="notion-bubble">
+                        <h3>React</h3>
+                    </div>
+                    <div class="notion-bubble">
+                        <h3>API Integration</h3>
+                    </div>
+                    <div class="notion-bubble">
+                        <h3 data-i18n="flowApplication.stateManagement">State Management</h3>
+                    </div>
+                    <div class="notion-bubble">
+                        <h3 data-i18n="flowApplication.responsiveDesign">Responsive Design</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-section">
+                <h2 data-i18n="flowApplication.linksTitle">Links</h2>
+                <div class="project-links">
+                    <a href="https://flow-application.vercel.app/" target="_blank" class="github-button">
+                        <i class="fas fa-external-link-alt"></i> <span data-i18n="flowApplication.viewLive">View Live Project</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="back-to-projects">
+                <a href="projects.html" class="back-button">
+                    <i class="fas fa-arrow-left"></i> <span data-i18n="projects.backButton">Back to Projects</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n="footer.copyright">© 2025 Kylian BRAULT - All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/i18n/en.js"></script>
+    <script src="assets/js/i18n/fr.js"></script>
+    <script src="assets/js/i18n/translations.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

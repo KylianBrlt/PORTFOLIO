@@ -14,6 +14,10 @@ const enTranslations = {
   projects: {
     title: "Last Projects",
     learnMore: "Learn more",
+    flowApplication: {
+      title: "Flow Social Network",
+      description: "A modern social network application built with Next.js and React. This project features user authentication, social interactions like posts and comments, and seamlessly integrates with external APIs. The responsive design ensures a great user experience across all devices."
+    },
     chickenCoop: {
       title: "Smart chicken coop",
       description: "The smart chicken coop project is a student initiative to create a connected chicken coop system. It uses a thermal camera for egg detection and a 3D-printed mechanism for egg collection. A Raspberry Pi 4 controls the system and sends notifications via a mobile app. The goal is to introduce students to engineering, from design to implementation."
@@ -112,6 +116,31 @@ const enTranslations = {
     bubble2: "CSRF Protection",
     linksTitle: "Links",
     viewDemo: "View Demo"
+  },
+  flowApplication: {
+    title: "Flow Social Network",
+    aboutTitle: "About this project",
+    aboutText1: "Flow is a modern social network application built with Next.js and React. It offers users a seamless platform to connect, share content, and interact with each other through posts and messaging. The application leverages external APIs for enhanced functionality and provides a responsive, intuitive user experience across all devices.",
+    aboutText2: "This project demonstrates my proficiency in building full-featured web applications using modern JavaScript frameworks. The application architecture follows best practices in component design, state management, and API integration. With features like real-time updates, user authentication, and responsive design, Flow represents a comprehensive showcase of modern web development skills.",
+    technologiesTitle: "Technologies",
+    tech1: "Next.js",
+    tech2: "React",
+    tech3: "RESTful APIs",
+    tech4: "CSS Modules / Styled Components",
+    featuresTitle: "Key Features",
+    feature1Title: "User Authentication:",
+    feature1Text: "Secure login and registration system with profile management.",
+    feature2Title: "Social Interactions:",
+    feature2Text: "Post creation, likes, comments, and sharing capabilities.",
+    feature3Title: "API Integration:",
+    feature3Text: "Connection to external services for enhanced functionality.",
+    feature4Title: "Responsive Design:",
+    feature4Text: "Seamless experience across desktop, tablet, and mobile devices.",
+    techNotionsTitle: "Technical Notions",
+    stateManagement: "State Management",
+    responsiveDesign: "Responsive Design",
+    linksTitle: "Links",
+    viewLive: "View Live Project"
   },
   contact: {
     title: "Contact me",
