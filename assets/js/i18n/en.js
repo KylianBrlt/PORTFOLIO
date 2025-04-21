@@ -42,6 +42,10 @@ const enTranslations = {
       title: "Spring AI Integration",
       description: "This project demonstrates how to seamlessly integrate AI capabilities into Spring Boot applications using Spring AI. With hands-on implementations and practical examples, it goes beyond theory to build real-world applications that harness the power of machine learning and natural language processing."
     },
+    restaurant: {
+      title: "Restaurant Website",
+      description: "A modern restaurant website built with Bootstrap. This responsive website showcases a restaurant's menu, location, opening hours, and allows customers to make reservations online. The project demonstrates how Bootstrap's grid system and components can create an elegant, mobile-friendly dining experience online."
+    },
     backButton: "Back to Projects"
   },
   chickenCoop: {
@@ -192,6 +196,32 @@ const enTranslations = {
     linksTitle: "Links",
     viewGithub: "View on GitHub",
     viewLive: "View Live Project"
+  },
+  restaurantProject: {
+    title: "Restaurant Website",
+    aboutTitle: "About this project",
+    aboutText1: "A modern restaurant website built with Bootstrap. This responsive website showcases a restaurant's menu, location, opening hours, and allows customers to make reservations online. The project demonstrates how Bootstrap's grid system and components can create an elegant, mobile-friendly dining experience online.",
+    aboutText2: "This project was developed as a comprehensive solution for restaurants looking to establish an online presence. Featuring an elegant design with smooth animations and transitions, the website focuses on highlighting the restaurant's unique atmosphere and culinary offerings. The Bootstrap framework was utilized to ensure the site works flawlessly on all devices while maintaining quick load times and intuitive navigation.",
+    technologiesTitle: "Technologies",
+    tech1: "HTML5 / CSS3",
+    tech2: "JavaScript",
+    tech3: "Bootstrap 5",
+    tech4: "SASS/SCSS",
+    featuresTitle: "Key Features",
+    feature1Title: "Responsive Design:",
+    feature1Text: "Fully responsive layout that works on all devices using Bootstrap's grid system.",
+    feature2Title: "Interactive Menu:",
+    feature2Text: "Dynamic menu display with filtering options and beautiful food imagery.",
+    feature3Title: "Reservation System:",
+    feature3Text: "Online booking form for table reservations with date and time selection.",
+    feature4Title: "Testimonials:",
+    feature4Text: "Customer review carousel showcasing positive dining experiences.",
+    techNotionsTitle: "Technical Notions",
+    responsiveDesign: "Responsive Design",
+    componentLibrary: "Component Library",
+    linksTitle: "Links",
+    viewGithub: "View on GitHub",
+    viewDemo: "View Live Project"
   },
   contact: {
     title: "Contact me",

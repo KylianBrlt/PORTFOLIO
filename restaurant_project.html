@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurant Project by Kylian BRAULT">
+    <meta name="keyword" content="Portfolio, Kylian, Restaurant, Bootstrap, Web Development">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Restaurant Project | Kylian BRAULT</title>
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/project_details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" href="assets/image/iconLogo.webp" type="image/webp">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <a href="index.html">
+                    <img src="assets/image/Kylian_Logo.webp" alt="Logo Kylian">
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="assets/pdf/CV_Kylian_BRAULT.pdf" data-i18n="nav.resume">Resume</a></li>
+                <li><a href="contact.php" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            <div class="lang-switch-container">
+                <button class="lang-switch" data-lang="en">EN</button>
+                <button class="lang-switch" data-lang="fr">FR</button>
+            </div>
+            <div class="Menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="project-details">
+            <div class="project-header">
+                <h1 data-i18n="restaurantProject.title">Restaurant Website</h1>
+                <img src="assets/image/restaurant.webp" alt="Restaurant Website Project" class="project-main-image">
+		<img src="assets/image/restaurant_carte.webp" alt="Restaurant Website Project" class="project-main-image">
+		<img src="assets/image/restaurant_reservation.webp" alt="Restaurant Website Project" class="project-main-image">
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="restaurantProject.aboutTitle">About this project</h2>
+                <p data-i18n="restaurantProject.aboutText1">
+                    A modern restaurant website built with Bootstrap. This responsive website showcases a restaurant's menu, location, 
+                    opening hours, and allows customers to make reservations online. The project demonstrates how Bootstrap's grid system 
+                    and components can create an elegant, mobile-friendly dining experience online.
+                </p>
+
+                <br>
+
+                <p data-i18n="restaurantProject.aboutText2">
+                    This project was developed as a comprehensive solution for restaurants looking to establish an online presence. 
+                    Featuring an elegant design with smooth animations and transitions, the website focuses on highlighting the 
+                    restaurant's unique atmosphere and culinary offerings. The Bootstrap framework was utilized to ensure the site 
+                    works flawlessly on all devices while maintaining quick load times and intuitive navigation.
+                </p>
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="restaurantProject.technologiesTitle">Technologies</h2>
+                <ul class="technology-list">
+                    <li data-i18n="restaurantProject.tech1">HTML5 / CSS3</li>
+                    <li data-i18n="restaurantProject.tech2">JavaScript</li>
+                    <li data-i18n="restaurantProject.tech3">Bootstrap 5</li>
+                    <li data-i18n="restaurantProject.tech4">SASS/SCSS</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="restaurantProject.featuresTitle">Key Features</h2>
+                <ul class="feature-list">
+                    <li><strong data-i18n="restaurantProject.feature1Title">Responsive Design:</strong> <span data-i18n="restaurantProject.feature1Text">Fully responsive layout that works on all devices using Bootstrap's grid system.</span></li>
+                    <li><strong data-i18n="restaurantProject.feature2Title">Interactive Menu:</strong> <span data-i18n="restaurantProject.feature2Text">Dynamic menu display with filtering options and beautiful food imagery.</span></li>
+                    <li><strong data-i18n="restaurantProject.feature3Title">Reservation System:</strong> <span data-i18n="restaurantProject.feature3Text">Online booking form for table reservations with date and time selection.</span></li>
+                    <li><strong data-i18n="restaurantProject.feature4Title">Testimonials:</strong> <span data-i18n="restaurantProject.feature4Text">Customer review carousel showcasing positive dining experiences.</span></li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="restaurantProject.techNotionsTitle">Technical Notions</h2>
+                <div class="notions-container">
+                    <div class="notion-bubble">
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="notion-bubble">
+                        <h3>CSS Grid</h3>
+                    </div>
+                    <div class="notion-bubble">
+                        <h3>Flexbox</h3>
+                    </div>
+                    <div class="notion-bubble">
+                        <h3 data-i18n="restaurantProject.responsiveDesign">Responsive Design</h3>
+                    </div>
+                    <div class="notion-bubble">
+                        <h3 data-i18n="restaurantProject.componentLibrary">Component Library</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-section">
+                <h2 data-i18n="restaurantProject.linksTitle">Links</h2>
+                <div class="project-links">
+                    <a href="https://github.com/KylianBrlt/RESTAURANT" target="_blank" class="github-button">
+                        <i class="fab fa-github"></i> <span data-i18n="restaurantProject.viewGithub">View on GitHub</span>
+                    </a>
+                    <a href="https://kylianbrlt.com/restaurant/" target="_blank" class="github-button">
+                        <i class="fas fa-external-link-alt"></i> <span data-i18n="restaurantProject.viewDemo">View Live Project</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="back-to-projects">
+                <a href="projects.html" class="back-button">
+                    <i class="fas fa-arrow-left"></i> <span data-i18n="projects.backButton">Back to Projects</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n="footer.copyright">© 2025 Kylian BRAULT - All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/i18n/en.js"></script>
+    <script src="assets/js/i18n/fr.js"></script>
+    <script src="assets/js/i18n/translations.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

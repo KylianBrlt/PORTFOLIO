@@ -42,6 +42,10 @@ const frTranslations = {
       title: "Intégration Spring AI",
       description: "Ce projet démontre comment intégrer de manière transparente des capacités d'IA dans des applications Spring Boot en utilisant Spring AI. Avec des implémentations pratiques et des exemples concrets, il va au-delà de la théorie pour créer des applications réelles qui exploitent la puissance de l'apprentissage automatique et du traitement du langage naturel."
     },
+    restaurant: {
+      title: "Site Web de Restaurant",
+      description: "Un site web moderne de restaurant construit avec Bootstrap. Ce site responsive présente le menu du restaurant, son emplacement, ses horaires d'ouverture et permet aux clients de faire des réservations en ligne. Le projet démontre comment le système de grille et les composants de Bootstrap peuvent créer une expérience de restauration élégante et adaptée aux mobiles en ligne."
+    },
     backButton: "Retour aux Projets"
   },
   chickenCoop: {
@@ -192,6 +196,32 @@ const frTranslations = {
     linksTitle: "Liens",
     viewGithub: "Voir sur GitHub",
     viewLive: "Voir le projet en ligne"
+  },
+  restaurantProject: {
+    title: "Site Web de Restaurant",
+    aboutTitle: "À propos de ce projet",
+    aboutText1: "Un site web moderne de restaurant construit avec Bootstrap. Ce site responsive présente le menu du restaurant, son emplacement, ses horaires d'ouverture et permet aux clients de faire des réservations en ligne. Le projet démontre comment le système de grille et les composants de Bootstrap peuvent créer une expérience de restauration élégante et adaptée aux mobiles en ligne.",
+    aboutText2: "Ce projet a été développé comme une solution complète pour les restaurants souhaitant établir une présence en ligne. Avec un design élégant et des animations fluides, le site met l'accent sur l'atmosphère unique du restaurant et ses offres culinaires. Le framework Bootstrap a été utilisé pour garantir que le site fonctionne parfaitement sur tous les appareils tout en maintenant des temps de chargement rapides et une navigation intuitive.",
+    technologiesTitle: "Technologies",
+    tech1: "HTML5 / CSS3",
+    tech2: "JavaScript",
+    tech3: "Bootstrap 5",
+    tech4: "SASS/SCSS",
+    featuresTitle: "Fonctionnalités clés",
+    feature1Title: "Design Responsive :",
+    feature1Text: "Mise en page entièrement responsive qui fonctionne sur tous les appareils grâce au système de grille Bootstrap.",
+    feature2Title: "Menu Interactif :",
+    feature2Text: "Affichage dynamique du menu avec options de filtrage et de belles images de plats.",
+    feature3Title: "Système de Réservation :",
+    feature3Text: "Formulaire de réservation en ligne avec sélection de date et d'heure.",
+    feature4Title: "Témoignages :",
+    feature4Text: "Carrousel d'avis clients présentant des expériences culinaires positives.",
+    techNotionsTitle: "Notions techniques",
+    responsiveDesign: "Design Responsive",
+    componentLibrary: "Bibliothèque de Composants",
+    linksTitle: "Liens",
+    viewGithub: "Voir sur GitHub",
+    viewDemo: "Voir le projet en ligne"
   },
   contact: {
     title: "Me contacter",
