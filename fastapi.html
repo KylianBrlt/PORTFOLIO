@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FastAPI Todo List Project by Kylian BRAULT">
+    <meta name="keyword" content="Portfolio, Kylian, FastAPI, Python, REST API, Todo List, MongoDB">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>FastAPI Todo List | Kylian BRAULT</title>
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/project_details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" href="assets/image/iconLogo.webp" type="image/webp">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <a href="index.html">
+                    <img src="assets/image/Kylian_Logo.webp" alt="Logo Kylian">
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="assets/pdf/CV_Kylian_BRAULT.pdf" data-i18n="nav.resume">Resume</a></li>
+                <li><a href="contact.php" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            <div class="lang-switch-container">
+                <button class="lang-switch" data-lang="en">EN</button>
+                <button class="lang-switch" data-lang="fr">FR</button>
+            </div>
+            <div class="Menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="project-details">
+            <div class="project-header">
+                <h1 data-i18n="fastapiProject.title">FastAPI Todo List</h1>
+                <img src="assets/image/TodoList.webp" alt="FastAPI Todo List Project" class="project-main-image">
+                <img src="assets/image/TodoList_Shopping.webp" alt="FastAPI Todo List Project"
+                    class="project-main-image">
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="fastapiProject.aboutTitle">About this project</h2>
+                <p data-i18n="fastapiProject.aboutText1">A powerful and efficient Todo List API built using FastAPI, a
+                    modern Python web framework with MongoDB as the database.
+                </p>
+
+                <br>
+
+                <p data-i18n="fastapiProject.aboutText2">This Todo List API showcases the speed and simplicity of
+                    FastAPI while maintaining high performance. The project leverages FastAPI's automatic data
+                    validation and built-in OpenAPI documentation. The API is designed to be easily expandable and
+                    incorporates asynchronous request handling for improved performance, with MongoDB providing
+                    flexible and scalable data storage.
+                </p>
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="fastapiProject.technologiesTitle">Technologies</h2>
+                <ul class="technology-list">
+                    <li data-i18n="fastapiProject.tech1">Python</li>
+                    <li data-i18n="fastapiProject.tech2">FastAPI</li>
+                    <li data-i18n="fastapiProject.tech3">MongoDB</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="fastapiProject.featuresTitle">Key Features</h2>
+                <ul class="feature-list">
+                    <li><strong data-i18n="fastapiProject.feature2Title">MongoDB Integration:</strong> <span
+                            data-i18n="fastapiProject.feature2Text">Flexible and scalable data storage using MongoDB for
+                            efficient todo item management.</span></li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="fastapiProject.techNotionsTitle">Technical Notions</h2>
+                <div class="notions-container">
+                    <div class="notion-bubble">
+                        <h3>FastAPI</h3>
+                    </div>
+                    <div class="notion-bubble">
+                        <h3>MongoDB</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2 data-i18n="fastapiProject.linksTitle">Links</h2>
+                <div class="project-links">
+                    <a href="https://github.com/KylianBrlt/farm-todo" target="_blank" class="github-button">
+                        <i class="fab fa-github"></i> <span data-i18n="fastapiProject.viewGithub">View on GitHub</span>
+                    </a>
+		    <a href="http://206.189.113.221:8081/" target="_blank" class="github-button">
+                        <i class="fas fa-external-link-alt"></i> <span data-i18n="fastapiProject.viewDemo">View Live Project</span>
+               	    </a>
+                </div>
+            </div>
+
+            <div class="back-to-projects">
+                <a href="projects.html" class="back-button">
+                    <i class="fas fa-arrow-left"></i> <span data-i18n="projects.backButton">Back to Projects</span>
+              	</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n="footer.copyright">© 2025 Kylian BRAULT - All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/i18n/en.js"></script>
+    <script src="assets/js/i18n/fr.js"></script>
+    <script src="assets/js/i18n/translations.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

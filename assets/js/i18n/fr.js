@@ -34,6 +34,14 @@ const frTranslations = {
       title: "Système de Réservation",
       description: "Un système de réservation complet construit avec PHP et MySQL. Ce projet comprend l'enregistrement et l'authentification des utilisateurs avec vérification par e-mail, la programmation de rendez-vous avec intégration de calendrier et des fonctionnalités de gestion de profil. Le système implémente les pratiques de sécurité, notamment la protection CSRF et le hachage des mots de passe."
     },
+    fastapiProject: {
+      title: "Liste de Tâches FastAPI",
+      description: "Une API de liste de tâches puissante et efficace construite avec FastAPI, un framework web Python moderne avec MongoDB comme base de données. Le projet utilise la validation automatique des données et la documentation OpenAPI intégrée pour offrir une solution performante et facilement extensible."
+    },
+    springAI: {
+      title: "Intégration Spring AI",
+      description: "Ce projet démontre comment intégrer de manière transparente des capacités d'IA dans des applications Spring Boot en utilisant Spring AI. Avec des implémentations pratiques et des exemples concrets, il va au-delà de la théorie pour créer des applications réelles qui exploitent la puissance de l'apprentissage automatique et du traitement du langage naturel."
+    },
     backButton: "Retour aux Projets"
   },
   chickenCoop: {
@@ -115,7 +123,8 @@ const frTranslations = {
     bubble1: "Authentification",
     bubble2: "Protection CSRF",
     linksTitle: "Liens",
-    viewDemo: "Voir la démo"
+    viewGithub: "Voir sur GitHub",
+    viewDemo: "Voir le projet en ligne"
   },
   flowApplication: {
     title: "Réseau Social Flow",
@@ -140,6 +149,48 @@ const frTranslations = {
     stateManagement: "Gestion d'état",
     responsiveDesign: "Design Responsive",
     linksTitle: "Liens",
+    viewGithub: "Voir sur GitHub",
+    viewLive: "Voir le projet en ligne"
+  },
+  fastapiProject: {
+    title: "Liste de Tâches FastAPI",
+    aboutTitle: "À propos de ce projet",
+    aboutText1: "Une API de liste de tâches puissante et efficace construite avec FastAPI, un framework web Python moderne avec MongoDB comme base de données.",
+    aboutText2: "Cette API de liste de tâches met en valeur la rapidité et la simplicité de FastAPI tout en maintenant des performances élevées. Le projet utilise la validation automatique des données et la documentation OpenAPI intégrée de FastAPI. L'API est conçue pour être facilement extensible et intègre un traitement asynchrone des requêtes pour de meilleures performances, avec MongoDB fournissant un stockage de données flexible et évolutif.",
+    technologiesTitle: "Technologies",
+    tech1: "Python",
+    tech2: "FastAPI",
+    tech3: "MongoDB",
+    featuresTitle: "Fonctionnalités Clés",
+    feature2Title: "Intégration MongoDB:",
+    feature2Text: "Stockage de données flexible et évolutif utilisant MongoDB pour une gestion efficace des tâches.",
+    techNotionsTitle: "Notions Techniques",
+    linksTitle: "Liens",
+    viewGithub: "Voir sur GitHub",
+    viewDemo: "Voir le Projet en Direct"
+  },
+  springAI: {
+    title: "Intégration Spring AI",
+    aboutTitle: "À propos de ce projet",
+    aboutText1: "Ce projet démontre comment intégrer de manière transparente des capacités d'IA dans des applications Spring Boot en utilisant Spring AI. Avec des implémentations pratiques et des exemples concrets, il va au-delà de la théorie pour créer des applications réelles qui exploitent la puissance de l'apprentissage automatique et du traitement du langage naturel.",
+    aboutText2: "Le projet comprend deux applications principales alimentées par l'IA : un chatbot Q&R qui peut répondre aux questions en fonction du contexte fourni, et un générateur de recettes qui utilise l'IA créative pour suggérer des recettes basées sur les ingrédients ou les exigences diététiques. Les deux applications utilisent API Mistral pour des capacités d'IA améliorées, démontrant comment Spring AI peut être exploité pour créer des applications web intelligentes et réactives.",
+    technologiesTitle: "Technologies",
+    tech1: "Spring Boot",
+    tech2: "Spring AI",
+    tech4: "Intégration API Mistral",
+    featuresTitle: "Fonctionnalités clés",
+    feature1Title: "Chatbot Q&R :",
+    feature1Text: "Chatbot interactif qui fournit des réponses contextuelles aux questions des utilisateurs.",
+    feature2Title: "Générateur de recettes :",
+    feature2Text: "Outil alimenté par l'IA qui crée des recettes personnalisées basées sur les ingrédients et les préférences.",
+    feature3Title: "Intégration Spring AI :",
+    feature3Text: "Incorporation transparente de modèles d'IA dans l'écosystème Spring.",
+    feature4Title: "Design responsive :",
+    feature4Text: "Interface conviviale qui fonctionne sur tous les appareils.",
+    techNotionsTitle: "Notions techniques",
+    apiIntegration: "Intégration API",
+    linksTitle: "Liens",
+    viewGithub: "Voir sur GitHub",
     viewLive: "Voir le projet en ligne"
   },
   contact: {

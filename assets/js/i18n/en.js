@@ -12,8 +12,8 @@ const enTranslations = {
     contactBtn: "Contact me"
   },
   projects: {
-    title: "Last Projects",
-    learnMore: "Learn more",
+    title: "Latest Projects",
+    learnMore: "Learn More",
     flowApplication: {
       title: "Flow Social Network",
       description: "A modern social network application built with Next.js and React. This project features user authentication, social interactions like posts and comments, and seamlessly integrates with external APIs. The responsive design ensures a great user experience across all devices."
@@ -33,6 +33,14 @@ const enTranslations = {
     reservation: {
       title: "Reservation System",
       description: "A comprehensive reservation system built with PHP and MySQL. This project features user registration and authentication with email verification, appointment scheduling with calendar integration, and profile management capabilities. The system implements security practices including CSRF protection and password hashing."
+    },
+    fastapiProject: {
+      title: "FastAPI Todo List",
+      description: "A powerful and efficient Todo List API built using FastAPI, a modern Python web framework with MongoDB as the database. The project leverages automatic data validation and built-in OpenAPI documentation to provide a high-performance, easily expandable solution."
+    },
+    springAI: {
+      title: "Spring AI Integration",
+      description: "This project demonstrates how to seamlessly integrate AI capabilities into Spring Boot applications using Spring AI. With hands-on implementations and practical examples, it goes beyond theory to build real-world applications that harness the power of machine learning and natural language processing."
     },
     backButton: "Back to Projects"
   },
@@ -115,7 +123,8 @@ const enTranslations = {
     bubble1: "Authentication",
     bubble2: "CSRF Protection",
     linksTitle: "Links",
-    viewDemo: "View Demo"
+    viewGithub: "Vew on GitiHub",
+    viewDemo: "View Live Project"
   },
   flowApplication: {
     title: "Flow Social Network",
@@ -140,6 +149,48 @@ const enTranslations = {
     stateManagement: "State Management",
     responsiveDesign: "Responsive Design",
     linksTitle: "Links",
+    viewGithub: "Vew on GitiHub",
+    viewLive: "View Live Project"
+  },
+  fastapiProject: {
+    title: "FastAPI Todo List",
+    aboutTitle: "About this project",
+    aboutText1: "A powerful and efficient Todo List API built using FastAPI, a modern Python web framework with MongoDB as the database.",
+    aboutText2: "This Todo List API showcases the speed and simplicity of FastAPI while maintaining high performance. The project leverages FastAPI's automatic data validation and built-in OpenAPI documentation. The API is designed to be easily expandable and incorporates asynchronous request handling for improved performance, with MongoDB providing flexible and scalable data storage.",
+    technologiesTitle: "Technologies",
+    tech1: "Python",
+    tech2: "FastAPI",
+    tech3: "MongoDB",
+    featuresTitle: "Key Features",
+    feature2Title: "MongoDB Integration:",
+    feature2Text: "Flexible and scalable data storage using MongoDB for efficient todo item management.",
+    techNotionsTitle: "Technical Notions",
+    linksTitle: "Links",
+    viewGithub: "View on GitHub",
+    viewDemo: "View Live Project"
+  },
+  springAI: {
+    title: "Spring AI Integration",
+    aboutTitle: "About this project",
+    aboutText1: "This project demonstrates how to seamlessly integrate AI capabilities into Spring Boot applications using Spring AI. With hands-on implementations and practical examples, it goes beyond theory to build real-world applications that harness the power of machine learning and natural language processing.",
+    aboutText2: "The project includes two main AI-powered applications: a Q&A chatbot that can answer questions based on provided context, and a recipe generator that uses creative AI to suggest recipes based on ingredients or dietary requirements. Both applications utilize API Mistral for enhanced AI capabilities, demonstrating how Spring AI can be leveraged to create intelligent and responsive web applications.",
+    technologiesTitle: "Technologies",
+    tech1: "Spring Boot",
+    tech2: "Spring AI",
+    tech4: "API Mistral Integration",
+    featuresTitle: "Key Features",
+    feature1Title: "Q&A Chatbot:",
+    feature1Text: "Interactive chatbot that provides context-aware answers to user questions.",
+    feature2Title: "Recipe Generator:",
+    feature2Text: "AI-powered tool that creates custom recipes based on ingredients and preferences.",
+    feature3Title: "Spring AI Integration:",
+    feature3Text: "Seamless incorporation of AI models within the Spring ecosystem.",
+    feature4Title: "Responsive Design:",
+    feature4Text: "User-friendly interface that works across all devices.",
+    techNotionsTitle: "Technical Notions",
+    apiIntegration: "API Integration",
+    linksTitle: "Links",
+    viewGithub: "View on GitHub",
     viewLive: "View Live Project"
   },
   contact: {
